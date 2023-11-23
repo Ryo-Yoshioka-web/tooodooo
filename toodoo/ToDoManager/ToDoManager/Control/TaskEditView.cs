@@ -5,9 +5,12 @@ using ToDoManager.src;
 
 namespace ToDoManager
 {
+    // 列挙型
     public enum EDIT_MODE
     {
+        // 新規作成モード FALSE
         New = 0,
+        // 編集モード　TRUE
         Edit
     }
 
@@ -15,24 +18,28 @@ namespace ToDoManager
     {
         private long id;
 
+        // コンストラクタ
         public String Task
         {
             get { return this.taskTextBox.Text; }
             set { this.taskTextBox.Text = value; }
         }
 
+        // コンストラクタ
         public DateTime Deadline
         {
             get { return getDeadLine(); }
             set { setDeadLine(value); }
         }
 
+        // コンストラクタ
         public REPEAT_TYPE RepeatType
         {
             get { return (REPEAT_TYPE)this.repeatComboBox.SelectedIndex; }
             set { this.repeatComboBox.SelectedIndex = (int)value; }
         }
 
+        // コンストラクタ
         public long ID
         {
             get { return this.id; }
@@ -42,6 +49,7 @@ namespace ToDoManager
         public TaskEditView()
         {
             InitializeComponent();
+            // レイアウト
             this.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             this.titleLabel.Width = this.Width;
             setFontSize(Properties.Settings.Default.fontSize);
@@ -99,6 +107,7 @@ namespace ToDoManager
             this.Height = this.okButton.Location.Y + this.okButton.Height + 10;
         }
 
+        // 0なら新規作成　1なら既存タスク
         public void setEditMode(EDIT_MODE mode)
         {
             if(mode == EDIT_MODE.New)

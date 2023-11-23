@@ -12,3 +12,17 @@ C:\Users\ryouy\Downloads\ToDoManager-master\ToDoManager-master\ToDoManager\ToDoM
 C:\Users\ryouy\Downloads\ToDoManager-master\ToDoManager-master\ToDoManager\ToDoManager\obj\Debug\ToDoManager.csproj.CoreCompileInputs.cache
 C:\Users\ryouy\Downloads\ToDoManager-master\ToDoManager-master\ToDoManager\ToDoManager\obj\Debug\ToDoManager.exe
 C:\Users\ryouy\Downloads\ToDoManager-master\ToDoManager-master\ToDoManager\ToDoManager\obj\Debug\ToDoManager.pdb
+C:\Users\ryouy\Downloads\tooodooo-main\tooodooo-main\toodoo\ToDoManager\ToDoManager\bin\Debug\ToDoManager.exe
+C:\Users\ryouy\Downloads\tooodooo-main\tooodooo-main\toodoo\ToDoManager\ToDoManager\bin\Debug\ToDoManager.pdb
+C:\Users\ryouy\Downloads\tooodooo-main\tooodooo-main\toodoo\ToDoManager\ToDoManager\obj\Debug\ToDoManager.csproj.AssemblyReference.cache
+C:\Users\ryouy\Downloads\tooodooo-main\tooodooo-main\toodoo\ToDoManager\ToDoManager\obj\Debug\ToDoManager.DeadlineLabel.resources
+C:\Users\ryouy\Downloads\tooodooo-main\tooodooo-main\toodoo\ToDoManager\ToDoManager\obj\Debug\ToDoManager.Control.SettingView.resources
+C:\Users\ryouy\Downloads\tooodooo-main\tooodooo-main\toodoo\ToDoManager\ToDoManager\obj\Debug\ToDoManager.TaskEditView.resources
+C:\Users\ryouy\Downloads\tooodooo-main\tooodooo-main\toodoo\ToDoManager\ToDoManager\obj\Debug\ToDoManager.MainForm.resources
+C:\Users\ryouy\Downloads\tooodooo-main\tooodooo-main\toodoo\ToDoManager\ToDoManager\obj\Debug\ToDoManager.TaskOptionPanel.resources
+C:\Users\ryouy\Downloads\tooodooo-main\tooodooo-main\toodoo\ToDoManager\ToDoManager\obj\Debug\ToDoManager.Properties.Resources.resources
+C:\Users\ryouy\Downloads\tooodooo-main\tooodooo-main\toodoo\ToDoManager\ToDoManager\obj\Debug\ToDoManager.TaskView.resources
+C:\Users\ryouy\Downloads\tooodooo-main\tooodooo-main\toodoo\ToDoManager\ToDoManager\obj\Debug\ToDoManager.csproj.GenerateResource.cache
+C:\Users\ryouy\Downloads\tooodooo-main\tooodooo-main\toodoo\ToDoManager\ToDoManager\obj\Debug\ToDoManager.csproj.CoreCompileInputs.cache
+C:\Users\ryouy\Downloads\tooodooo-main\tooodooo-main\toodoo\ToDoManager\ToDoManager\obj\Debug\ToDoManager.exe
+C:\Users\ryouy\Downloads\tooodooo-main\tooodooo-main\toodoo\ToDoManager\ToDoManager\obj\Debug\ToDoManager.pdb

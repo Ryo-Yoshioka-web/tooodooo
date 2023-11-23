@@ -19,6 +19,7 @@ namespace ToDoManager
 
             // 締め切り
             this.deadline = date;
+            // 左側
             this.dateLabel.Text = this.deadline.ToString("yyyy/MM/dd (ddd)");
 
             refreshRemainDays();

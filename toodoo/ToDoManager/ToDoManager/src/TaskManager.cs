@@ -16,6 +16,7 @@ namespace ToDoManager.src
         // プライベートコンストラクタ
         private TaskManager()
         {
+            // 処理の開始
             try
             {
                 using (System.IO.TextReader reader = new System.IO.StreamReader(confName))

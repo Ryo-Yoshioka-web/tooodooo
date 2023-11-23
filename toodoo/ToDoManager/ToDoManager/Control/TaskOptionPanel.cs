@@ -16,7 +16,6 @@ namespace ToDoManager
         {
             InitializeComponent();
 
-
             this.buttonToolTip.SetToolTip(this.returnButton, "戻る");
             this.buttonToolTip.SetToolTip(this.doneButton,   "完了");
             this.buttonToolTip.SetToolTip(this.editButton,   "編集");

@@ -4,7 +4,7 @@ namespace ToDoManager.src
 {
     class SettingEventArgs : EventArgs
     {
-        // 
+        // 設定のオンオフ
         public bool changeFontSize;
         public bool changeTaskNum;
 

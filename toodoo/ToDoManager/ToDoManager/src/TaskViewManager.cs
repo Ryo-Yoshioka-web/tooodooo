@@ -4,16 +4,21 @@ namespace ToDoManager.src
 {
 	class TaskViewManager
     {
+
 		private List<TaskView> taskViewList;
         private static TaskViewManager instance = null;
 
         private TaskViewManager()
         {
+			// タスクをリスト化
 			taskViewList = new List<TaskView>();
         }
 
+		// windowは一つしかないから　シングルトンパターンの採用
 		public static TaskViewManager getInstance()
 		{
+
+			// インスタンスがなければ生成
 			if(null == instance)
 			{
 				instance = new TaskViewManager();
@@ -22,18 +27,22 @@ namespace ToDoManager.src
 			return instance;
 		}
 
+		// タスクびゅーを追加
 		public void addTaskView(TaskView view)
 		{
 			this.taskViewList.Add(view);
 		}
 
+		// タスクビューの削除
 		public void clear()
 		{
 			this.taskViewList.Clear();
 		}
 
+		// content(戻る、完了、編集、削除)
 		public void hideAllMenuContent()
 		{
+			// 複数あっても非表示できるように
 			foreach(TaskView view in this.taskViewList)
 			{
 				view.hideMenuContent();
